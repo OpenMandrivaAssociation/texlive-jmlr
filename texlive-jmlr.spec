@@ -1,3 +1,9 @@
+# revision 21830
+# category Package
+# catalog-ctan /macros/latex/contrib/jmlr
+# catalog-date 2011-03-24 23:50:46 +0100
+# catalog-license lppl
+# catalog-version 1.11
 Name:		texlive-jmlr
 Version:	1.11
 Release:	1
@@ -90,6 +96,7 @@ individual articles as PDFs.
 #- source
 %doc %{_texmfdistdir}/source/latex/jmlr/jmlr.dtx
 %doc %{_texmfdistdir}/source/latex/jmlr/jmlr.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -100,3 +107,5 @@ individual articles as PDFs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar scripts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
