@@ -1,12 +1,12 @@
-# revision 21830
+# revision 25029
 # category Package
 # catalog-ctan /macros/latex/contrib/jmlr
-# catalog-date 2011-03-24 23:50:46 +0100
+# catalog-date 2012-01-05 14:48:31 +0100
 # catalog-license lppl
-# catalog-version 1.11
+# catalog-version 1.12
 Name:		texlive-jmlr
-Version:	1.11
-Release:	2
+Version:	1.12
+Release:	1
 Summary:	Class files for the Journal of Machine Learning Research
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jmlr
