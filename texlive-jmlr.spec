@@ -90,3 +90,33 @@ individual articles as PDFs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar scripts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.17-1
++ Revision: 812309
+- Update to latest release.
+
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.13-2
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.13-1
++ Revision: 783012
+- Update to latest release.
+
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.12-1
++ Revision: 758920
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.11-2
++ Revision: 752899
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.11-1
++ Revision: 718753
+- texlive-jmlr
+- texlive-jmlr
+- texlive-jmlr
+- texlive-jmlr
+
