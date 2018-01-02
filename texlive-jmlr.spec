@@ -1,12 +1,6 @@
-# revision 31945
-# category Package
-# catalog-ctan /macros/latex/contrib/jmlr
-# catalog-date 2013-10-18 17:17:29 +0200
-# catalog-license lppl
-# catalog-version 1.18
 Name:		texlive-jmlr
-Version:	1.18
-Release:	9
+Version:	1.24
+Release:	1
 Summary:	Class files for the Journal of Machine Learning Research
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jmlr
@@ -43,43 +37,11 @@ individual articles as PDFs.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/scripts/jmlr/makejmlrbook
-%{_texmfdistdir}/scripts/jmlr/makejmlrbook.bat
-%{_texmfdistdir}/tex/latex/jmlr/jmlr.cls
-%{_texmfdistdir}/tex/latex/jmlr/jmlrbook.cls
-%doc %{_texmfdistdir}/doc/latex/jmlr/CHANGES
-%doc %{_texmfdistdir}/doc/latex/jmlr/INSTALL
-%doc %{_texmfdistdir}/doc/latex/jmlr/README
-%doc %{_texmfdistdir}/doc/latex/jmlr/jmlr.pdf
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/bookLogo-gray.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/bookLogo.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/jmlrbook-sample.pdf
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/jmlrbook-sample.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper1/paper1.bib
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper1/paper1.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper2/paper2.bib
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper2/paper2.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper3/paper3.bib
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper3/paper3.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper4/paper4.bib
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/paper4/paper4.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/proceedings-sample.pdf
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-books/proceedings-sample.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/circle-gray.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/circle.jpg
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/nodes-gray.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/nodes.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/square-gray.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/square.png
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/images/teximage.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/jmlr-sample.bib
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/jmlr-sample.pdf
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/jmlr-sample.tex
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/jmlrwcp-sample.pdf
-%doc %{_texmfdistdir}/doc/latex/jmlr/sample-papers/jmlrwcp-sample.tex
+%{_texmfdistdir}/scripts/jmlr
+%{_texmfdistdir}/tex/latex/jmlr
+%doc %{_texmfdistdir}/doc/latex/jmlr
 #- source
-%doc %{_texmfdistdir}/source/latex/jmlr/jmlr.dtx
-%doc %{_texmfdistdir}/source/latex/jmlr/jmlr.ins
+%doc %{_texmfdistdir}/source/latex/jmlr
 
 #-----------------------------------------------------------------------
 %prep
