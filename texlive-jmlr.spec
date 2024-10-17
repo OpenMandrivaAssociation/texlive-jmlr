@@ -3,7 +3,7 @@ Version:	61957
 Release:	2
 Summary:	Class files for the Journal of Machine Learning Research
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jmlr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/jmlr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jmlr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jmlr.doc.r%{version}.tar.xz
