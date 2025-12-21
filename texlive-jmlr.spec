@@ -9,6 +9,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jmlr.r%{version}.
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jmlr.doc.r%{version}.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jmlr.source.r%{version}.tar.xz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
